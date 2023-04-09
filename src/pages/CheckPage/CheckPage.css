@@ -1,0 +1,361 @@
+.check-page {
+    padding: 40px;
+    min-height: 100vh;
+    background-image: linear-gradient(0deg, var(--primary-color), var(--color-fill));
+}
+
+.check-address {
+    width: 95%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check-title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.check-address__info{
+    font-size: 0.9rem;
+}
+
+.check-address__info>div {
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.check-address__info span {
+    font-weight: 300;
+    margin-left: 3px;
+}
+
+.btn__fix{
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: rgba(176, 176, 177, 0.2) 0px 7px 29px 0px;
+}
+
+.check-product {
+    width: 95%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.check-product__head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.check-product__head-title {
+    width: 60%;
+    margin-bottom: 0;
+}
+
+.check-product__head-info {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgba(117, 115, 115, 0.8);
+}
+
+
+.check-product__bott {
+    display: flex;
+    align-items: center;
+}
+
+.check-product__bott-left{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    font-size: 0.9rem;
+}
+
+.check-product__bott-left-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.check-product__bott-left-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.check-product__bott-left-content{
+    width: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+.check-product__bott-left-type{
+    flex: 1;
+    font-weight: 500;
+    color: rgb(97, 94, 94);
+}
+
+.check-product__bott-left-type span {
+    margin-left: 4px;
+}
+
+.check-product__bott-right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+
+
+.check-product__note{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.check-product__note-letf {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.check-product__note-letf-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.check-product__note-letf-input {
+    padding: 10px;
+    width: 70%;
+}
+
+.check-product__note-letf-input:focus{
+    outline-color: var(--primary-color);
+}
+
+.check-product__note-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check-product__note-right-transport{
+    font-size: 0.9rem;
+    display: flex;
+}
+
+.check-product__note-right-transport>span {
+    color: var(--primary-color);
+}
+
+.check-product__note-right-transport-detail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+.check-product__note-right-transport-time {
+    font-size: 0.7rem;
+    margin-top: 3px;
+}
+
+
+.check-pay {
+    width: 95%;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;   
+}
+
+.check-pay__head {
+    display: flex;
+    align-items: center;
+}
+
+.check-pay__head-title {
+    width: 60%;
+}
+
+.check-pay__method {
+    width: 40%;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.check-pay__bott{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.check-pay__bott-left {
+    width: 60%;
+}
+
+.check-pay__bott-right {
+    width: 40%;    
+}
+
+.check-pay__bott-right>div {
+    margin-bottom: 18px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check-pay__bott-priceResult-money {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.check-pay__btn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addressModel-heading {
+    font-size: 1rem;
+    padding-bottom: 20px;
+    border-bottom:1px solid var(--primary-color) ;
+}
+
+.addressModel-list {
+    min-height: 200px;
+    max-height: 350px;
+    overflow: auto;
+    margin: 12px 0;
+}
+
+.addressModel-list::-webkit-scrollbar{
+    display: none;
+}
+
+.addressModel-info {
+    display: flex;
+    padding: 16px 0;
+    margin-bottom: 12px;
+}
+
+.select-address {
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: all ease 0.2s;
+}
+
+.select-address:hover {
+    border-color: var(--primary-color);
+}
+
+.addressModel-info__detail {
+    flex: 1;
+    color: #5e5d5d;
+}
+
+.addressModel-info__name {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: black;
+}
+
+.addressModel-info__phone {
+    font-size: 0.9rem;
+    margin-bottom: 3px;
+}
+
+.addressModel-info__address {
+    font-size: 0.9rem;
+}
+
+.addressModel-info__update {
+    margin-left: 20px;
+    color: var(--primary-color);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.addressModel-add {
+    font-size: 1rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.addressModel-btns {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.addressModel-btn{
+    font-size: 0.9rem;
+    padding: 10px 16px;
+    min-width: 120px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    color: rgb(184, 181, 181);
+    border: 1px solid rgb(184, 181, 181);
+}
+
+.close{
+    transition: all ease 0.2s;
+}
+
+.save{
+    color: white;
+    background-color: var(--primary-color);
+    margin-left: 20px;
+    border-color: var(--primary-color);
+    transition: all ease 0.2s;
+}
+
+.save:hover {
+    opacity: 0.9;
+}
+
+.close:hover{
+    color: #5e5d5d;
+    border: 1px solid #5e5d5d;
+}
+
+.btnAddress-mobile,
+.check-pay__mobile {
+    /* display: none ; */
+}
+
+.btnAddress-mobile{
+    width: 10px;
+}

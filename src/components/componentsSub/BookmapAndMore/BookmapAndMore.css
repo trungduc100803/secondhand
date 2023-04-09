@@ -1,0 +1,25 @@
+
+.bookmapAndMore {
+    display: flex;
+}
+
+.cardBlog-head__btn {
+    width: 16px;
+    fill: rgb(109, 108, 108);
+    transition: all ease 0.2s;
+    position: relative;
+}
+
+.cardBlog-head__save {
+    cursor: pointer;
+    margin-right: 26px;
+}
+
+.cardBlog-head__more {
+    cursor: pointer;
+}
+
+.cardBlog-head__btn:hover {
+    fill: var(--primary-color);
+}
+

@@ -1,0 +1,123 @@
+.header {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--height-header);
+    padding: 40px var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--primary-color);
+    background-color: rgb(248, 244, 244);
+    /* background-image: linear-gradient(0deg, var(--primary-color), var(--color-fill)); */
+    box-shadow: rgba(195, 195, 197, 0.2) 0px 7px 29px 0px;
+}
+
+.navi-mobile {
+    display: none;
+}
+
+.navi-icon {
+    width: 16px;
+    cursor: pointer;
+    fill: var(--primary-color);
+}
+
+@keyframes fade {
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.navi-container{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transform: translateX(-100%);
+}
+
+
+.navi-list {
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    background-color: #f8f4f4;
+    box-shadow: rgba(23, 23, 24, 0.2) 0px 7px 29px 0px;
+}
+
+.navi-list a{
+    text-decoration: none;
+}
+
+.navi-logo {
+    padding: 25px;
+}
+
+.naviMobile-item {
+    padding: 12px 10px;
+    transition: all ease 0.2s;
+}
+
+.naviMobile-item:hover {
+    background-color: var(--hover-color);
+}
+
+.naviMobile-item p{
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+.navi-container.active{
+    transform: translateX(0);
+    animation: fade 0.5s ease;
+}
+
+.navi {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navi-item:not(:last-child) {
+    margin-right: 8px;
+}
+
+.navi-item>a  {
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 6px 16px;
+    text-decoration: none;
+    transition: all ease 0.2s;
+}
+
+.navi-item>a:hover {
+    color:var(--primary-color);
+}
+
+.btn-header {
+    display: flex;
+    align-items: center;
+}
+
+.btn-cart {
+    fill: black;
+    margin-right: 30px;
+}
+
+.btn-user {
+
+}

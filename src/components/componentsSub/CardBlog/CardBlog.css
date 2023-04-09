@@ -1,0 +1,186 @@
+.cardBlog-container {
+    padding: 24px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    transition: all ease 0.2s;
+    border: 2px solid rgb(219, 219, 219);
+    box-shadow: rgba(169, 169, 170, 0.2) 0px 7px 29px 0px;
+}
+
+.cardBlog-container:hover {
+    border: 2px solid var(--primary-color);
+    box-shadow: rgba(113, 113, 114, 0.2) 0px 7px 29px 0px;
+}
+
+.cardBlog-head {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardBlog-head__left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cardBlog-head__user {
+    width: 50px;
+}
+
+.cardBlog-head__user-img{
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardBlog-head__nameUser {
+    margin-left: 20px;
+    font-size: 1rem;
+    font-family: 500;
+}
+
+.cardBlog-head__right {
+    display: flex;
+    align-items: center;
+}
+/* 
+.cardBlog-head__btn {
+    width: 16px;
+    fill: rgb(109, 108, 108);
+    transition: all ease 0.2s;
+    position: relative;
+}
+
+.cardBlog-head__save {
+    cursor: pointer;
+    margin-right: 26px;
+}
+
+.cardBlog-head__more {
+    cursor: pointer;
+}
+
+.cardBlog-head__btn:hover {
+    fill: var(--primary-color);
+}
+ */
+
+
+
+@keyframes fadeOut {
+    0% {
+        top: -10px;
+        opacity: 0;
+    }
+    100%{
+        top: 35px;
+        opacity: 1;
+    }
+}
+
+.cardBlog-head__more-sub{
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    padding: 16px 0;
+    min-width: 250px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(34, 34, 34, 0.2) 0px 7px 29px 0px;
+}
+
+.cardBlog-head__more-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    transition: all ease 0.2s;
+}
+
+.cardBlog-head__more-item:hover {
+    color: white;
+    background-color: var(--hover-color);
+}
+
+.cardBlog-head__more-icon {
+    width: 18px;
+    margin-right: 12px;
+    fill: rgb(109, 108, 108);
+}
+
+.cardBlog-head__more-text {
+    font-size: 1rem;
+}
+
+.cardBlog-head__more-sub.active {
+    visibility: visible;
+    animation: fadeOut 0.3s ease forwards;
+}
+
+
+
+
+
+
+
+
+
+
+.cardBlog-body {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.cardBlog-body__letf {
+    width: 60%;
+}
+
+.cardBlog-body__letf a {
+    text-decoration: none;
+    color: black;
+}
+
+.cardBlog-body__title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.cardBlog-body__des {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: rgb(90, 89, 89);
+    height: 3.6rem;
+    text-align: justify;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.cardBlog-body__right {
+    width: 40%;
+}
+
+.cardBlog-body__img {
+    margin-left: 30px;
+    cursor: pointer;
+    box-shadow: rgba(206, 206, 207, 0.2) 0px 7px 29px 0px;
+}
+
+.cardBlog-body__img div {
+    padding-top: 50%;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardBlog-bottom__time {
+    font-size: 0.9rem;
+}

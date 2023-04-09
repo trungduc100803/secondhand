@@ -1,0 +1,123 @@
+.searchProduct {
+    margin-bottom: 100px;
+    padding: var(--padding);
+}
+
+.catalog {
+    padding: var(--padding);
+}
+
+.catalog-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.catalog-list {
+    position: relative;
+    display: flex;
+    overflow: auto;
+    border-top: 1px solid #e9e6e6;
+    border-bottom: 1px solid #e9e6e6;
+    box-shadow: rgba(214, 213, 213, 0.2) 0px 7px 29px 0px;
+}
+
+.catalog-list::-webkit-scrollbar{
+    display: none;
+}
+
+.catalog-item {
+    min-width: 120px;
+    height: 180px;
+    padding: 2px 6px;
+    cursor: pointer;
+    border-right: 1px solid #e9e6e6;
+    transition: all ease 0.2s;
+}
+
+.catalog-item:hover{
+    box-shadow: rgba(161, 161, 161, 0.2) 0px 7px 29px 0px;
+}
+
+.catalog-img {
+    padding-top: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.catalog-name {
+    font-size: 0.9rem;
+    margin-top: 6px;
+    text-align: center;
+}
+
+.banner-productPage {
+    border-radius: 10px;
+    margin: var(--padding);
+    padding-top: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(214, 213, 213, 0.2) 0px 7px 29px 0px;
+}
+
+.arow-left {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    width: 20px;
+    transition: all ease 0.2s;
+}
+
+.arow-right {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+    width: 20px;
+    right: 0;
+    transition: all ease 0.2s;
+}
+
+
+.arow-left:hover, 
+.arow-right:hover {
+    zoom: 1.5;
+    fill: var(--primary-color);
+}
+
+
+.suggest {
+    padding: var(--padding);
+    margin-top: 20px;
+}
+
+.suggest-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.suggest-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 0 -10px;
+}
+
+.suggest-item {
+    max-width: 20%;
+    min-width: 20%;
+    padding: 0 10px;
+}
+
+.movePage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}

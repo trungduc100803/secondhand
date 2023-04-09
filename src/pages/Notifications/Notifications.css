@@ -1,0 +1,22 @@
+.Notifications {
+    padding-bottom:20px;
+    border-radius: 10px;
+    background-color: #f8f4f4;
+}
+
+.notifications-heading{
+    font-size: 1rem;
+    color: rgb(121, 120, 120);
+    font-weight: 500;
+    padding: 20px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.notifications-list{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.notifications-list::-webkit-scrollbar{
+    display: none;
+}
